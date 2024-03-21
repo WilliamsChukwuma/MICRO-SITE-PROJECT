@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(to bottom, #8c6445, #dcc3a0); 
+    padding: 0, 0, 50px 0;
+}
+
+
+/* --------------------------------------------NAVBAR------------ */
+header {
+    background: linear-gradient(to bottom, #233d46, #5a8299, #7cacb4, #233d46);
+    width: 100%;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.d-inline-block-align-text-top {
+    color: #fff;
+}
+
+.navbar-ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+}
+
+.navbar-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-item:hover {
+    background-color: none;
+}
+
+
+/* ------------------------------------SWIPER SLIDE---------- */
+
+.swiper {
+    width: 500px;
+    height: 500px;
+    background: transparent; 
+}
+
+.swiper-container {
+    height: 500px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img{
+    width: 500px;
+    height:  500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+/* --------------------------------NAVIGATION ARROW IN SLIDER--------- */
+.swiper-button-next, .swiper-button-prev {
+    opacity: 0;
+    display: none;
+  }
+      
+  .swiper-button-disabled {
+        visibility: hidden;
+        opacity: 0;
+        transition: none;
+  }
+
+  /*------------------------------------ASIDE FUNCTION-------------------  */
+  #FOR-ASIDE{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #aside{
+    width: 30%;
+    font-family: cursive;
+    font-style: italic;
+    color: #fff;
+    margin: 80px  60px 5px 50px;
+}
+
+#slider{
+    width: 70%;
+    margin-right: 10px;
+  }
+
+.Learn-more{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    background: #fff;
+     font-size: 10px;
+     margin-top: 25px; 
+    border-radius: 25px;
+    padding: 10px 30px;
+}  
+
+/* ------------------------------FOOTER------------------------------- */
+#footer{
+    background: linear-gradient(to bottom, #233d46, #5a8299, #7cacb4, #233d46);
+    text-align: center;
+    padding: 30px 0px 20px;
+  }
+  
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 10%;
+  }
+
+  /* -------------------------------------CONTACT HTML------------------- */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact {
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
