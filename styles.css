@@ -104,7 +104,8 @@ header {
 
 /* ------------------------------FOOTER------------------------------- */
 #footer{
-    background: linear-gradient(to bottom, #233d46, #5a8299, #7cacb4, #233d46);
+    //background: linear-gradient(to bottom, #233d46, #5a8299, #7cacb4, #233d46);
+    background-color: transperent;
     text-align: center;
     padding: 30px 0px 20px;
   }
